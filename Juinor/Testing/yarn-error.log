@@ -1,0 +1,55 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\SHASHANK SHUKLA\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add --dev hardhat @nomiclabs/hardhat-ethers@npm:hardhat-deploy-ethers ethers
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python310\Scripts\;C:\Python310\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\OpenJDK\openjdk-11.0.14.1_1\bin;C:\Users\SHASHANK SHUKLA\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Java\jdk-18.0.1.1\bin;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\MinGW\bin;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Users\SHASHANK SHUKLA\AppData\Local\Microsoft\WindowsApps;C:\MinGW\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.1.1\bin;;C:\Program Files\Java\jdk-16.0.1\bin;C:\Users\SHASHANK SHUKLA\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\MongoDB\Server\5.0\bin;C:\Program Files\heroku\bin;C:\Users\SHASHANK SHUKLA\AppData\Roaming\npm;C:\Users\SHASHANK SHUKLA\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\python 3.9\Scripts;C:\Users\SHASHANK SHUKLA\AppData\Local\Programs\Microsoft VS Code\bin;C:\src\flutter\bin;C:\Program Files\Geth;C:\usr\local;C:\Program Files\Azure Data Studio\bin;C:\Program Files\OpenSSL-Win64\bin;;C:\Program Files\Docker Toolbox
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  19.4.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'D:\Web3DAO\Juinor\Testing\node_modules\keccak\prebuilds\win32-x64\node.napi.node'
+
+npm manifest: 
+  {
+    "name": "testing",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "@nomicfoundation/hardhat-chai-matchers": "^2.0.2",
+      "@nomicfoundation/hardhat-ethers": "^3.0.4",
+      "@nomicfoundation/hardhat-network-helpers": "^1.0.8",
+      "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+      "@nomicfoundation/hardhat-verify": "^1.1.1",
+      "@typechain/ethers-v6": "^0.4.3",
+      "@typechain/hardhat": "^8.0.3",
+      "@types/chai": "^4.3.5",
+      "@types/mocha": "^10.0.1",
+      "chai": "^4.3.7",
+      "hardhat": "^2.17.1",
+      "hardhat-gas-reporter": "^1.0.9",
+      "solidity-coverage": "^0.8.4",
+      "ts-node": "^10.9.1",
+      "typechain": "^8.3.1",
+      "typescript": "^5.1.6"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
